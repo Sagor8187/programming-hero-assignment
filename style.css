@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 .logo{
     height: 60px;
@@ -12,6 +13,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 16px 120px;
+    
 }
 .list{
     list-style: none;
@@ -25,12 +27,25 @@ body{
     border-radius: 4px;
     padding: 10px 20px;
     border: none;
+    font-weight: 600;
+}
+.playbtn{
+     background-color:transparent;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 1px solid white;
+}
+.buttonparent{
+    display: flex; gap: 10px;
+    justify-content: center;
 }
 .head{
     background-image: url("./asset/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 80px 100px;
 
 }
 .herobtn{
@@ -42,8 +57,11 @@ body{
     align-items: center;
     gap: 5px;
     background-color: white;
-    
+    padding: 0 20px;
     width: 200px;
+    margin: 0px auto;
+    border-radius: 60px;
+    color: #469165;
 }
 .hero-logo{
     width: 16px;
@@ -55,4 +73,81 @@ body{
     flex-direction: column;
     justify-content: center;
     
+}
+.mains{
+    text-align: center;
+}
+.hero1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+}
+
+.peradiv{
+    color: white;
+}
+.logos{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50px;
+    height: 25px;
+}
+.card{
+    
+    
+    height: 200px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    align-items: center;
+    
+    padding:30px;
+    
+}
+.cardpera{
+    color: #627382;
+    
+}
+.cardmain{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+.seceondsection{
+    text-align: center;
+}
+.seceond{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.cover{
+    width: 600px;
+    height: 600px;
+}
+.done{
+    align-items: center;
+    display: flex;
+
+}
+.thirdsection{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    background-color: #001931;
+
+    
+}
+.footerlayout{
+    display:flex ;
+    justify-content: space-between;
+    padding: 100px;
+}
+.social{
+    color: white;
 }
