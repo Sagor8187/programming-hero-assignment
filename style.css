@@ -1,4 +1,58 @@
-h1{
-    background-color: green;
-    font-size:large;
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    height: 60px;
+    width:130px ;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.btn{
+    background-color: #469165;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+.head{
+    background-image: url("./asset/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.herobtn{
+    align-items: center;
+}
+.hero-first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    
+    width: 200px;
+}
+.hero-logo{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+}
+.fristsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
